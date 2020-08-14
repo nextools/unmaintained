@@ -1,0 +1,23 @@
+{
+  "name": "@start/plugin-lib-rollup",
+  "version": "3.0.0",
+  "description": "🏭 Bundle files using Rollup",
+  "keywords": "tasks, runner, start, start-plugin, rollup",
+  "repository": "deepsweet/start",
+  "author": "Kir Belevich <kir@belevi.ch> (https://github.com/deepsweet)",
+  "license": "MIT",
+  "types": "types/index.d.ts",
+  "main": "node/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=12.13.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.4.2",
+    "@start/plugin": "^2.0.0",
+    "rollup": "^2.0.4",
+    "tsfn": "^2.0.0"
+  }
+}

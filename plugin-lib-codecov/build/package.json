@@ -1,0 +1,22 @@
+{
+  "name": "@start/plugin-lib-codecov",
+  "version": "2.0.0",
+  "description": "💯 Send code coverage report to codecov.io",
+  "keywords": "tasks, runner, start, start-plugin, coverage, codecov",
+  "repository": "deepsweet/start",
+  "author": "Kir Belevich <kir@belevi.ch> (https://github.com/deepsweet)",
+  "license": "MIT",
+  "types": "types/index.d.ts",
+  "main": "node/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=12.13.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.4.2",
+    "@start/plugin": "^2.0.0",
+    "codecov-lite": "^2.0.0"
+  }
+}
